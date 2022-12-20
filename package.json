@@ -1,0 +1,21 @@
+{
+  "name": "quora-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "npm start --prefix frontend",
+    "server": "nodemon backend/server",
+    "start": "nodemon --watch backend --exec node backend/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.8.5",
+    "axios": "^0.27.2",
+    "firebase": "^9.10.0",
+    "react-redux": "^8.0.4"
+  }
+}
